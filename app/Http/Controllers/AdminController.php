@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class AdminCrontroller extends Controller
+class AdminController extends Controller
 {
-    public function index(){
+    public function home(){
         return view('admin.index');
     }
 }
